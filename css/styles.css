@@ -117,7 +117,7 @@ ul {
     font-weight: 700;
     line-height: calc(60/56);
     letter-spacing: 0.02em;
-    min-width: 496px;
+    max-width: 496px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -335,6 +335,8 @@ ul {
     font-weight: 500;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
+}
+.item-text {
     margin-bottom: 8px;
 }
 .item-descrip {
