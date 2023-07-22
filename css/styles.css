@@ -1,0 +1,346 @@
+:root {
+    --main-color: #FFFFFF;
+    --second-color:#2E2F42;
+    --third-color:#F4F4FD;
+    --fourth-color:#434455;
+    --fifth-color:#4D5AE5;
+    --border-color:#E7E9FC; 
+
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #2E2F42;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+ul {
+    list-style-type: none;
+}
+
+
+/* ----------Header-------------- */
+
+.header {
+    background-color: var(--main-color);
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: calc(21/18);
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+    padding: 24px 0;
+}
+.container-logo {
+    display: flex;
+}
+
+.logo-studio {
+   color: #2E2F42;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-list-link {
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    margin-left: 322px;
+}
+.header-list-link:hover {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.contact-item {
+    color: var(--fourth-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+}
+.contact-item:hover, .contact-item:focus {
+    color: #404BBF;
+}
+
+/* -------- First Part -------- */
+
+.main-part {
+    background-color: var(--second-color);
+    padding: 188px 0;
+}
+
+.main-thesis {
+    color: var(--main-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: calc(60/56);
+    letter-spacing: 0.02em;
+    min-width: 496px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-button { 
+    color: var(--main-color);
+    background-color: var(--fifth-color);
+    font-family: inherit;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 38px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.main-button:hover, .main-button:focus {
+    background-color: #404BBF;
+}
+
+/*-------------Second Part-----------*/
+
+.main-description {
+    padding: 120px 0;
+}
+.main-description-list {
+    background-color: var(--main-color);
+    display: flex;
+    gap: 24px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.main-description-item {
+    width: calc((100% - 72px) / 4);
+}
+.description-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;  
+    margin-bottom: 8px;
+}
+
+.description-mean {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.about {
+    padding-bottom: 120px;
+}
+.about-do {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(40/36);
+    letter-spacing: 0.02em;  
+    color: var(--second-color);
+    padding-left: 403px;
+    margin-bottom: 72px;
+}
+.about-do-list {
+    display: flex;
+    gap: 24px;
+}
+.about-do-item {
+    width: calc((100% - 48px) / 3);
+}
+
+/*-------------Third Part------------*/
+.team {
+    background-color: var(--third-color);
+    padding: 120px 0;
+}
+.our-team {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(40/30);
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+}
+.worker{
+    padding-bottom: 32px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.who {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+/*------------------Footer Part--------------*/
+.end {
+    background-color: var(--second-color);
+    padding: 100px 0;
+}
+.logo-end{
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: calc(21/18);
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.end-studio {
+    color: var(--third-color);
+}
+.end-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+    max-width: 264px;
+}
+
+
+
+/*------------------- PORTFOLIO ------------------*/
+
+
+.options-buttons {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.options-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.card {
+    border: 1px solid var(--border-color);
+    padding: 32px 16px;
+    border-top: none;
+}
+
+.options-item-btn {
+    color: #4D5AE5;
+    background-color: var(--border-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px; 
+}
+
+.options-item-btn:hover, .options-item-btn:focus{ 
+    background-color: #404BBF;
+    color: #FFFFFF;  
+    border: 1px solid transparent;
+}
+
+.opportunities-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.opportunities-item {
+    background-color: #FFFFFF;
+}
+
+.item-card {
+    background-color: var(--main-color);
+    width: calc((100% - 48px) / 3);
+}
+.item-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.item-descrip {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: #434455;
+}
