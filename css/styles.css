@@ -224,7 +224,7 @@ ul {
     border-radius: 0px 0px 4px 4px; 
 }
 .worker{
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 .name {
     font-size: 20px;
@@ -232,7 +232,6 @@ ul {
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
     text-align: center;
 }
 .who {
