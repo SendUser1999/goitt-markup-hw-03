@@ -117,7 +117,8 @@ ul {
     font-weight: 700;
     line-height: calc(60/56);
     letter-spacing: 0.02em;
-    min-width: 496px;
+    max-height: 496px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     text-align: center;
