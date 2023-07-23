@@ -212,6 +212,8 @@ ul {
     line-height: calc(40/30);
     letter-spacing: 0.02em;
     text-align: center;
+}
+.our-team {
     margin-bottom: 72px;
 }
 .our-team-list {
